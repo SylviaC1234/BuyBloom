@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+#shipping{color: red;
+    font-family: sans-serif;
+
+}
+#paragraph1{
+font-weight: bold;
+
+}
+
+.paragraph{
+    font-style: italic;
+}
+
+#membership{
+    background-color: aqua;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    color: red;
+
+}
+
+#membership:hover{
+    background-color: blue;
+    color: brown;
+}
+
+#VIP{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+
+}
+
+#VIP img{
+    border-radius: 10px;
+}
+
+#main{
+display: flex;
+
+}
+
+.service{
+    background-color: aqua;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here!</title>
+    <link rel="stylesheet" href="css/register.css">
+    <a href="home.html">visit home</a>
+</head>
+<body>
+    
+    <form action="">
+        <legend><marquee behavior="alternate" direction="">Create an account</marquee></legend>
+        <label for="fname">First Name :</label>
+        <input type="text"placeholder="Enter first name" id="fname" required>
+        <!--the placeholder is the temporary text that appears in the text box before you start typing-->
+        <!--the id is used to link the two-->
+        <br><br>
+
+
+        <label for="sname">Surname:</label>
+        <input type="text"placeholder="e.g Hunter" id="sname"required>
+        <br><br>
+
+         <label for="email">Email Address:</label>
+        <input type="email"placeholder="e.g abc@gmail.com" id="email"required>
+        <br><br>
+
+         <label for="password">Password:</label>
+        <input type="password"placeholder="type password" id="password"required>
+
+        <br><br>
+
+        <label for="yob">Birthday:</label>
+        <input type="date" id="yob" required>
+        <br><br>      
+        
+        <label for="dt">Date:</label>
+        <input type="datetime-local" id="dt" required>
+        <br><br>
+
+        <label for="height">Height(cm):</label>
+        <input type="number" id="height" required placeholder="Enter height">
+<br><br>
+
+        <label for="file">Upload CV/Resume:</label>
+        <input type="file" id="file" required>
+        <br><br>
+
+        <!--dropdown-->
+        <label for="nationality">Select nationality:</label>
+        <select name="" id="" required>
+            <option value="" disabled>--choose one--</option>
+            <option value="">Kenyan</option>
+            <option value="">German</option>
+            <option value="">British</option>
+            <option value="">American</option>
+            <option value="">Australian</option>
+        </select>
+        <br><br>
+         <label>Choose your favourite football team:</label>
+         <br>
+         <input type="radio" id="arsenal" name="team">
+         <label for="arsenal">Arsenal</label>
+         <br>
+          <input type="radio" id="Chelsea" name="team">
+         <label for="Chelsea">Chelsea</label>
+         <br>
+          <input type="radio" id="Liverpool" name="team">
+         <label for="Liverpool">Liverpool</label>
+         <br>
+         <br>
+
+         <label>Choose favourite meals:</label>
+         <br>
+         <input type="checkbox" id="Chapati" name="chapati">
+         <label for="Chapati">Chapati</label>
+         <br>
+         <input type="checkbox" id="Shawarma" name="shawarma">
+         <label for="Shawarma">Shawarma</label>
+          <br>
+         <input type="checkbox" id="Ugali" name="ugalli">
+         <label for="Ugali">Ugali</label>
+         <br><br><br>
+         <label for="message">Describe yourself:</label>
+         <br>
+     <textarea name="" id="" cols="60" rows="10"></textarea>
+     <!--cols-width, rows-height--> 
+     <br><br>
+     <button type="submit">Register</button>
+     
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#main{
+    display: flex;
+}
+
+.cars{
+margin: 20px;
+height: 150px;
+
+}
+li{
+    text-align:justify;
+    margin-left: 0px;
+}

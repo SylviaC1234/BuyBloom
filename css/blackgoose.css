@@ -1,0 +1,26 @@
+body{
+background-color: bisque;
+text-align: justify;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{margin-left: 220px;
+    }
+
+h1{
+    text-align: center;
+    size: 50px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+hr{border-color: rgba(4, 0, 255, 0.267);
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+h3{
+    color: orangered
+}
